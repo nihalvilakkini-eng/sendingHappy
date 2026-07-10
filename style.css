@@ -1,0 +1,181 @@
+    .headDiv{
+    background-color:#FFF4E6;
+    height:130px;
+
+}
+#logoImg{
+    width:150px;
+    height: 50px;
+    margin-left:10%;
+    margin-top:2.5%;
+}
+ #headNav{
+    text-align: center;
+    margin-right:10%;
+    margin-top: 4%;
+    float: right;
+
+ }
+
+ #headNav a{
+    text-decoration: none;
+    color: black;
+    margin-right:24px;
+    font-weight: bold;
+    margin-top: 10%;
+ }
+.ayurvedaHead{
+    font-family:"poppins";
+    font-weight:700 ;
+    font-size :70px; 
+    line-height:70px;
+    margin-top:100px;
+    margin-bottom:5px;
+    
+   
+}
+#bodySection{
+    margin-left:10%;
+    margin-right:10%;
+    
+}
+.ayurvedaCont{
+    margin:0px;
+    font-family:"POPPy";
+
+    line-height:26px;
+    size:16px;
+    margin-top:0;
+
+
+}
+#ayurvedDiv{
+    width:50%;
+    float: left;
+    float:left;
+
+}
+.viewMoreBtn{
+    background-color: #42C2B2;
+    color:white;
+    padding: 10px 20px;
+    border:none;
+    border-radius: 7px;
+}
+.homeImageDiv{
+    
+    float:right;
+
+}
+#homeimage{
+    width: 528px;
+    height: 304px;
+    margin-right:10%;
+    margin-top:100px;
+}
+.serviceDiv{
+   
+    clear: both;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:35%;
+}
+.homeimageDiv{
+    float:right;
+    margin-right:10%;
+}
+.serviceSize{
+    font-size: 40px;
+    font-family:"POPPy";
+    letter-spacing:-1px;
+    margin:0px;
+
+}
+#smallimageDiv{
+  
+      margin-right:10%;
+    margin-left:10%;
+}
+#smaimageDiv{
+    display:flex;
+    margin-left:10%;
+    
+    
+}
+    .smallimg{
+    width:285px;
+    height:300px;
+}     
+
+ .lastDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF4E6;
+    margin-top: 10%;
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#logo {
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#lastlogo {
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.lastword {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+.gridtag{
+    position:relative;
+    overflow:hidden;
+    top:50px;
+    margin-left:0.25cm;
+     display: grid;
+
+}
+
+ .overlay{
+    
+    position:absolute;
+    bottom: 0%;
+    width:285px;
+    height: 60px;
+  background: linear-gradient(
+    to top,
+    #000000 0%,
+     #000000 40%,
+    rgba(255, 255, 255, 0) 100%
+  );
+    color:white;
+    /* font-width:200px;
+    font-height:20px; */
+    word-spacing:20%;
+    display: flex;
+    align-items: flex-end;
+
+
+ }
+ .overlay span{
+    margin-left: 20px;
+ }
+ @font-face{
+   font-family:"poppins";
+    src:url('fonts/Poppins-Bold.ttf');
+ }
+ @font-face{
+   font-family:"POPPy";
+    src:url('fonts/Poppins-Regular.ttf');
+ }
