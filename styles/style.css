@@ -1,4 +1,4 @@
-    .headDiv{
+.headDiv{
     background-color:#FFF4E6;
     height:130px;
 
@@ -34,11 +34,12 @@
     
    
 }
+
 #bodySection{
     margin-left:10%;
     margin-right:10%;
-    
 }
+
 .ayurvedaCont{
     margin:0px;
     font-family:"POPPy";
@@ -143,7 +144,7 @@ footer {
     overflow:hidden;
     top:50px;
     margin-left:0.25cm;
-     display: grid;
+    display: grid;
 
 }
 
@@ -173,9 +174,12 @@ footer {
  }
  @font-face{
    font-family:"poppins";
-    src:url('fonts/Poppins-Bold.ttf');
+    src:url('/fonts/Poppins-Bold.ttf');
  }
  @font-face{
    font-family:"POPPy";
-    src:url('fonts/Poppins-Regular.ttf');
+    src:url('/fonts/Poppins-Regular.ttf');
  }
+
+
+

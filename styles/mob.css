@@ -1,0 +1,179 @@
+ @font-face{
+   font-family:"poppins";
+    src:url('/fonts/Poppins-Bold.ttf');
+ }
+ @font-face{
+   font-family:"POPPy";
+    src:url('/fonts/Poppins-Regular.ttf');
+    
+ }
+
+@media only screen and (max-width: 599px) {
+    .headDiv{
+    background-color:#FFF4E6;
+    height: 60px;
+}
+#logoImg{
+    width:100px;
+    height: 50px;
+    margin-left:3%;
+    margin-top:1%;
+}
+#headNav{
+    display:flex;
+    justify-content:flex-end;
+   text-align: center;
+    margin-right:3%;
+    margin-top:1%;
+    float: right;
+    padding:3px 1px;
+    font-size:12px;
+
+ }
+ #headNav a{
+     text-decoration: none;
+    color: black;
+    margin-right:3%;
+    font-weight: bold;
+    margin-top: 10%;
+ }
+ #bodySection{
+    margin-left:3%;
+    margin-right:3%;
+}
+#ayurvedDiv{
+    width:auto;
+
+
+}
+.ayurvedaHead{
+    font-family:"poppins";
+    font-weight:300;
+    font-size :25px; 
+    line-height:25px;
+    margin-top:20px;
+    text-align: center;
+}
+.ayurvedaCont{
+    margin:0px;
+    font-family:"POPPy";
+    word-spacing:3px;
+    line-height:16px;
+    size:1px;
+    margin-top:0;
+
+}
+.viewMoreBtn{
+    background-color: #42C2B2;
+    color:white;
+    padding: 7px 17px;
+    border:none;
+    border-radius: 7px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.homeimageDiv{
+   
+   margin-bottom:20px;
+}
+#homeimage{
+    width:100%;
+    height:350px;
+    /* margin-bottom:3%; */
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.serviceDiv{
+   
+    clear: both;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top:20px;
+}
+.serviceSize{
+    font-size:25px;
+    font-family:"POPPy";
+    letter-spacing:-1px;
+    margin:0px;
+    margin-left:4%;
+}
+.ayurvedaCont{
+    margin:0px;
+    font-family:"POPPy";
+    word-spacing:3px;
+    line-height:16px;
+    size:1px;
+    margin-top:0;
+}
+#smaimageDiv{
+    
+    flex-direction: column;
+     margin-left:3%;
+    margin-right:3%;
+    
+    
+}
+.smallimg{
+    width:100%;
+   height: 300px;
+   margin-top:.75cm;
+}     
+.gridtag{
+    position:relative;
+    overflow:hidden;
+    top:5px;
+    margin-left:0.25cm;
+     display: grid;
+
+}
+
+ .overlay{
+    
+    position:absolute;
+    bottom: 0%;
+    width:100%;
+    height: 60px;
+  background: linear-gradient(
+    to top,
+    #000000 0%,
+     #000000 40%,
+    rgba(255, 255, 255, 0) 100%
+  )
+ }
+ .lastDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF4E6;
+    margin-top:2%;
+    padding:15px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#logo {
+    height:40px;
+    width:70px;
+    margin-bottom: 15px;
+}
+#lastlogo {
+    height: 15px;
+    margin-bottom: 8px;
+}
+
+.lastword {
+    margin: 0;
+    font-size: 7px;
+    color: #555;
+}
+
+
+
+}
