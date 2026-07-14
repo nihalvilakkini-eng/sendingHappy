@@ -3,7 +3,7 @@
     
   .headDiv{
     background-color:#FFF4E6;
-    height:60px;
+    height:80px;
 }
 #logoImg{
     width:90px;
@@ -11,91 +11,96 @@
     margin-left:3%;
     margin-top:1.5%;
 }
+#menu-toggle {
+    display: none;
+    
+}
+.hamburger {
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  float: right;
+    display: block;
+    /* margin-left:4%; */
+    margin-top:10px;
+}
+#menu-toggle:checked ~ #headNav {
+    display: flex;
+}
 #headNav{
-    display:flex;
-    justify-content:flex-end;
-   text-align: center;
-    margin-right:3%;
-    margin-top:1%;
-    float: right;
-    padding:3px 1px;
-    font-size:12px;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+         float: right;
+          margin-left:500px; top: 20px;
+        width: 20%;
+        background:white;
+    }
 
- }
- #headNav a{
-     text-decoration: none;
-    color: black;
-    margin-right:3%;
-    font-weight: bold;
-    margin-top: 10%;
+ 
+ #headNav a {
+      padding: 15px;
+        border-top: 1px solid #555;
+    /* position:absolute; */
  }
  #bodySection{
     margin-left:3%;
     margin-right:3%;
 }
 #ayurvedDiv{
-    width:350px;
-    height: 350px;
+    width:300px;
+
+
 }
 .ayurvedaHead{
     font-family:"poppins";
-    font-weight:300px;
-    font-size :40px; 
-
+    font-weight:300;
+    font-size :30px; 
+    line-height:25px;
     margin-top:20px;
-    /* text-align: center; */
-    float:left;
-    margin-top:40px;
-    word-spacing:7px;
-    line-height:40px;
+    float: left;
 }
 .ayurvedaCont{
-    /* margin:0px; */
+    margin:0px;
     font-family:"POPPy";
-    /* word-spacing:5px; */
-    line-height:3%;
-    /* size:10px; */
-    /* margin-top:0; */
     float:left;
-    margin-top:50px;
-    font-size:20px;
+    line-height:26px;
+    size:16px;
+    margin-top:0;
     
-
 }
 .viewMoreBtn{
     background-color: #42C2B2;
     color:white;
-    padding: 7px 17px;
+    padding: 10px 20px;
     border:none;
     border-radius: 7px;
-    /* display: flex;
-    justify-content:center;
-    align-items: center; */
     float:left;
-    margin-top:20%;;
+    margin-top:30px;
 }
 .homeimageDiv{
    
-margin-bottom: 20px;
-   
-
+   margin:auto;
 }
 #homeimage{
-    width:350px;
-    height:250px;
-    /* margin-bottom:3%; */
-    margin-top:20px;
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
-margin-top: 45px;
+    width:300px;
+    height:200px;
+    margin-bottom:3%;
+    margin-top:70px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
+
 }
 .serviceDiv{
    
     clear: both;
     margin-left: 3%;
     margin-right: 3%;
-    margin-top:80px;
+    margin-top:20px;
     height:200px;
 }
 .serviceSize{
@@ -104,7 +109,7 @@ margin-top: 45px;
     letter-spacing:-1px;
     margin:0px;
     margin-left:4%;
-    margin-top:40px;
+    margin-top:20px;
 }
 .ayurvedaCont{
     margin:0px;
@@ -121,7 +126,7 @@ margin-top: 45px;
     margin-right:3%;
     grid-template-columns:repeat(2,1fr);
     display:grid;
-    
+    margin-top: -20px;;
 }
 .smallimg{
     width:100%;
