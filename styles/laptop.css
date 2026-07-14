@@ -11,6 +11,12 @@
 }
 
 
+#menu-toggle {
+    display: none;
+}
+.hamburger {
+display: none;
+}
 
 
  #headNav{

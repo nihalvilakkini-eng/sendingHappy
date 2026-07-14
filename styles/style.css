@@ -9,6 +9,13 @@
     margin-left:10%;
     margin-top:2.5%;
 }
+#menu-toggle {
+    display: none;
+}
+.hamburger {
+display: none;
+}
+
  #headNav{
     text-align: center;
     margin-right:10%;
